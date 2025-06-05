@@ -3,6 +3,8 @@
 This project reproduces a bug with Quarkus access log not logging requests to the management interface
 when it's running on a separate host and port, i.e. when using `quarkus.management.enabled=true`.
 
+https://github.com/quarkusio/quarkus/issues/48237
+
 Run the tests like so:
 ```shell script
 ./mvnw test
